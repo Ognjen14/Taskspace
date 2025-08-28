@@ -137,6 +137,7 @@ void WeatherApi::onNetworkReply(QNetworkReply *reply)
         daysCollected++;
     }
     emit weatherUpdated();
+    emit forecastUpdated();
     reply->deleteLater();
 }
 
