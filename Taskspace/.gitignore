@@ -28,7 +28,9 @@ ui_*.h
 *.qmlc
 *.jsc
 Makefile*
-*build-*
+# Ignore build directories
+/build/
+/build-*/
 *.qm
 *.prl
 
